@@ -1,0 +1,95 @@
+@charset "utf-8";
+	/* CSS Document */
+
+	h1{
+	text-align: center;
+	color: #546F7A;
+	}
+
+	p1{
+		text-align: center;
+		color: #546F7A;
+		font-weight: bolder;
+		font-size:2em;
+	}
+.Video{
+	text-align: center;
+}
+
+.Formulario{
+	text-align: center;
+}
+
+	.Nosotros{
+	text-align: center;
+		background: url("../img/fondo tierno.jpg");
+}
+	figure{
+		padding: 5px;
+		text-align: center;
+		border: thin #c0c0c0 solid;
+		margin: auto;
+		max-width: 1050px;	
+	}
+	figcaption{
+		background-color: #82B6BB;
+		color: #fff;
+		font: italic smaller sans-serif;
+		text-align: center;
+		padding: 3px;
+		font-weight: bolder;
+	}
+
+	.imgTienda{
+		content: url("../img/Foto de tienda.jpeg");
+		max-width: 1000px;
+	}
+	
+	.imgRopa{
+	content: url("../img/ropa-mascota.jpg");
+	max-width: 400px;
+	}
+
+	.imgJuguetes{
+	content: url("../img/juguetes-para-perros.jpg");
+	max-width: 400px;
+	}
+
+	.imgCamas{
+	content: url("../img/Cama-para-perros-de-gamuza.jpg");
+	max-width: 400px;
+	}
+
+	img, img:hover{ /* select : pseudoclase */
+		transition: all 2s ease-in-out;
+	}
+
+	.enfoque:hover{
+		filter: blur(5px);
+	}
+
+	.sepia:hover{
+		filter: sepia(100%);
+	}
+
+	.gris:hover{
+		filter:grayscale(130%);
+	}
+.rota:hover{
+	filter:hue-rotate(180deg);
+}
+
+.invertir:hover{
+	filter:invert(100%);
+}
+
+.opacar:hover{
+	filter:opacity(.5);
+}
+
+.saturar:hover{
+	filter: saturate(50%);
+}
+
+
+	
